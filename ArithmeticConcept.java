@@ -7,6 +7,8 @@ public static void main(String[] args) {
 	ArithmeticConcept a= new ArithmeticConcept();
 	
 	System.out.println("\n result is "+a.add(5,454));
+	System.out.println("changes");
+
 	a.show();
 	System.out.println("\n result "+sub(4, -8));//sub is static method so no need to write object 'a', if u write then also okay, but there is no need
      System.out.println("\n Multiplication is "+a.mul(56, 2));
